@@ -1,0 +1,65 @@
+.debt-card{
+  display: flex  !important;
+  align-items: center  !important;
+  justify-content: space-between  !important;
+}
+
+.debt-card-left-top{
+  width: 100%;
+  display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.debt-card-left{
+  display: flex  !important;
+  flex-direction: column  !important;
+}
+
+.debt-card-end{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;  
+}
+
+.dc-name{ 
+  text-align: center;
+  margin-left: 300px;
+  width: 300px !important;
+}
+
+.dc-amount{
+  margin-left: 200px;
+}
+
+.debt-card-left-bottom{
+  border-top: 1px solid #000;
+}
+
+.debt-card-left-bottom p{
+  margin-top: 10px !important;
+  text-align: center;
+}
+
+.debt-card-left-top span {
+  display: flex;
+}
+
+/* transactions */
+
+.transaction-card{
+  width: 600px; 
+
+}
+
+.transactions-wrapper{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.debts-wrapper {
+  margin-top: 40px;
+}
